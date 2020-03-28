@@ -2,7 +2,6 @@
     background-color: orange; /*background-color in case background image doesn't load*/
     background-image: url(images/backgroundSunset.jpg); 
 }
-
 body{
    background-color: hsla(48, 100%, 57%, 0.5);
    font-family: 'Gotu', sans-serif;
@@ -19,4 +18,8 @@ nav ul{
     display: flex;
     flex-direction: column;
 } 
+
+strong{
+    background-color: hsla(112, 100%, 25%, 0.7);
+}
 
