@@ -1,0 +1,22 @@
+:root{
+    background-color: orange; /*background-color in case background image doesn't load*/
+    background-image: url(images/backgroundSunset.jpg); 
+}
+
+body{
+   background-color: hsla(48, 100%, 57%, 0.5);
+   font-family: 'Gotu', sans-serif;
+}
+
+nav ol{
+    display: flex;
+    flex-direction: row;
+}
+nav ol li{
+    margin: 0.5rem 2rem; 
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+} 
+
